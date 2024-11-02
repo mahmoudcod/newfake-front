@@ -64,7 +64,7 @@ const LoginPage = () => {
 
           <form className="space-y-4" onSubmit={handleSubmit}>
             <input
-              type="email"
+              type="text"
               name="email"
               value={formData.email}
               onChange={handleChange}
