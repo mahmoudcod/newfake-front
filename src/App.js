@@ -22,7 +22,7 @@ const LoginPage = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5500/api/auth/register', formData);
+      const response = await axios.post('https://demoblog-h71e.onrender.com/api/auth/register', formData);
 
       // Store token in localStorage
       localStorage.setItem('token', response.data.token);
